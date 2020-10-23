@@ -1,11 +1,197 @@
 {
-  "posts": [
+  "questions": [
     {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+      "type": "multiple",
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "answer": "<script>",
+      "incorrect_answers: [
+        "<java>",
+        "<javascript>",
+        "<head>"]
+    },
+    {
+      "type": "multiple",
+      "question": "In Java, which of those allows duplicate elements?",
+      "answer": "List",
+      "incorrect_answers": [ 
+      "Set",
+      "None of the above",
+      "All of the above"
+     ]
+    },
+    {
+      "type": "mutiple",
+      "question": "Which of the following is not a language that has been taught in this course?",
+      "answer": "Python"
+      "incorrect_answers": [ 
+      "JavaScript",
+      "CSS",
+      "HTML"
+      ]
+    },
+    {
+      "type": "fill_in",
+      "question": "What does JDK stand for",
+      "answer":"Java Development Kit",
+      "incorrect_answers": [
+     ]
+    },
+    {
+      "type": "multiple",
+      "question": "CSS stands for",
+      "answer":"Cascading Style Sheets",
+      "incorrect_answers": [
+        "Cool Style Sheets",
+        "Coding Style Sheets",
+        "Colorful Style Sheets"
+     ]
+    },
+    {
+      "type": "multiple",
+      "question": "Where are JS files and CS files references",
+      "answer":"<head>",
+      "incorrect_answers": [
+        "<title>",
+        "<h1>"
+        "<body>"
+     ]
+    },
+    {
+      "type": "multiple",
+      "question": "Which of the following is not an access modifier?",
+      "answer":"All of the above",
+      "incorrect_answers": [
+        "Private",
+        "Public",
+        "Protected"
+     ]
+    },
+    {
+      "type": "multiple",
+      "question": "How do you change the background color?",
+      "answer":"back-ground color",
+      "incorrect_answers": [
+        "color",
+        "background",
+        "All of the above"
+     ]
+    },
+    {
+      "type": "fill_in",
+      "question": "What does the following statement print? System.out.print( 5 + "5") ",
+      "answer":" 5 5 ",
+      "incorrect_answers": [
+     ]
+    },
+    {
+      "type": "multiple",
+      "question": "What signifies a new paragraph?",
+      "answer":"<p>",
+      "incorrect_answers": [
+        "<paragraph>",
+        "<para>",
+        "<br>"
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "There is only one way to declare a function in Javascript",
+      "answer":"False",
+      "incorrect_answers": [
+        "True"
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "A variable can be changed when the final keyword is used",
+      "answer":"False",
+      "incorrect_answers": [ 
+        "True"
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "to declare a non-static method, the keyword non-static must be used ",
+      "answer":"False",
+      "incorrect_answers": [
+        "True"
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "In Java, = and == will produce the same result",
+      "answer":"False",
+      "incorrect_answers": [ 
+        "True"
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "Java and Javascript are the same.",
+      "answer":"False",
+      "incorrect_answers": [
+        "True"
+     ]
+    },
+   {
+      "type": "boolean",
+      "question": "<hr> produces a visible horizontal line",
+      "answer":"True",
+      "incorrect_answers": [
+        "False"
+     ]
+    },
+   {
+      "type": "boolean",
+      "question": "<br> produces a single line break",
+      "answer":"True",
+      "incorrect_answers": [
+        "False"
+     ]
+    },
+   {
+      "type": "boolean",
+      "question": "Danger and Red will produce the same color",
+      "answer":"True",
+      "incorrect_answers": [
+        "False"
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "Text - color is used to change font color",
+      "answer":"False",
+      "incorrect_answers": [
+        "True"    
+     ]
+    },
+    {
+      "type": "boolean",
+      "question": "A separate file is needed for CSS and JavaScript",
+      "answer":"False",
+      "incorrect_answers": [ "True"
+     ]
+    },
+    {
+      "type": "fill_in",
+       "question": "How many characters are typically used when declaring a color?",
+      "answer": "6",
+      "incorrect_answers": [
+      ]
+    },
+    { 
+      "type": "fill_in",
+      "question": "px stands for:",
+      "answer": "Pixels",
+      "incorrect_answers": [
+       ]
+    },
+    {
+     "type": "fill_in",
+     "question": "API stands for",
+     "answer": "Application Programming Interface",
+     "incorrect_answers":[
+   
+    ]
+
+]}
