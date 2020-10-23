@@ -22,7 +22,7 @@
     {
       "type": "mutiple",
       "question": "Which of the following is not a language that has been taught in this course?",
-      "answer": "Python"
+      "answer": "Python",
       "incorrect_answers": [ 
       "JavaScript",
       "CSS",
