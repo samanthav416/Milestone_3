@@ -172,13 +172,6 @@
       "incorrect_answers": [ "True"
      ]
     },
-    {
-      "type": "fill_in",
-      "question": "How many characters are typically used when declaring a color?",
-      "answer": "6",
-      "incorrect_answers": [
-      ]
-    },
     { 
       "type": "fill_in",
       "question": "px stands for:",
