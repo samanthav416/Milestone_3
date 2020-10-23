@@ -77,13 +77,6 @@
      ]
     },
     {
-      "type": "fill_in",
-      "question": "What does the following statement print? System.out.print( 5 + "5") ",
-      "answer":" 5 5 ",
-      "incorrect_answers": [
-     ]
-    },
-    {
       "type": "multiple",
       "question": "What signifies a new paragraph?",
       "answer":"<p>",
