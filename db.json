@@ -4,7 +4,7 @@
       "type": "multiple",
       "question": "Inside which HTML element do we put the JavaScript?",
       "answer": "<script>",
-      "incorrect_answers: [
+      "incorrect_answers": [
         "<java>",
         "<javascript>",
         "<head>"]
