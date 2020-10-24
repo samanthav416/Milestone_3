@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel = "stylesheet" href = "quiz_style.css" >
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+		<script src ="quiz_js.js"></script> 
+		
+		
+		<title> Quiz </title> 
+		
+	</head> 
+	
+	<body>
+		<div id = "view-widget" class = "text-center"> </div>
+  </body>
+  
+  <script id = "home" type = "text/x-handlebars-template">
+		
+	<h1> Are You Smarter Than A Programmer</h1> 
+	<form id = "quiz">
+		<label for ="name"> Name:</label>
+		<input id= "name" autocomplete= "off" autofocus placeholder = "Enter Name" type ="text">
+		<button id ="button1" class = "button" type = "submit" value = "quiz1"> Quiz 1 </button>
+		<button id ="button2" class = "button" type = "submit" value = "quiz1"> Quiz 2 </button>
+	</form>	
+</script>
+
+	<script id = "quiz_view" type = "text/x-handlebars-template">
+	<h4 class = "text-center>" Score:{{this.correct}} / {{this.total}} </h4>
+	<div id = "question-view"
+</html>
