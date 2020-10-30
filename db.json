@@ -3,181 +3,141 @@
     {
       "type": "multiple",
       "question": "Inside which HTML element do we put the JavaScript?",
-      "answer": "<script>",
-      "incorrect_answers": [
-        "<java>",
-        "<javascript>",
-        "<head>"]
+      "c1": "<script>",
+	  "c2": "<java>",
+	  "c3":  "<javascript>",
+	  "c4": "<head>",
+	  "answer" : "c1"
     },
     {
       "type": "multiple",
-      "question": "In Java, which of those allows duplicate elements?",
-      "answer": "List",
-      "incorrect_answers": [ 
-      "Set",
-      "None of the above",
-      "All of the above"
-     ]
+      "question": "In Java, which of the following allows duplicate elements?",
+	  "c1": "Set",
+	  "c2": "None of the above",
+	  "c3": "All of the above",
+      "c4": "List",
+	  "answer": "c4"
     },
     {
       "type": "mutiple",
       "question": "Which of the following is not a language that has been taught in this course?",
-      "answer": "Python",
-      "incorrect_answers": [ 
-      "JavaScript",
-      "CSS",
-      "HTML"
-      ]
+	  "c1": "Javascript",
+	  "c2": "CSS",
+	  "c3": "HTML",
+      "c4": "Python",
+	  "answer": "c4"
     },
     {
       "type": "fill_in",
       "question": "What does JDK stand for",
       "answer":"Java Development Kit",
-      "incorrect_answers": [
-     ]
+
     },
     {
       "type": "multiple",
       "question": "CSS stands for",
-      "answer":"Cascading Style Sheets",
-      "incorrect_answers": [
-        "Cool Style Sheets",
-        "Coding Style Sheets",
-        "Colorful Style Sheets"
-     ]
+	  "c1": "Cool Style Sheets",
+	  "c2": "Cascading Style Sheets",
+	  "c3": "Coding Style Sheets",
+	  "c4": "Colorful Style Sheets",
+      "answer":"c3"
     },
     {
       "type": "multiple",
       "question": "Where are JS files and CS files references",
-      "answer":"<head>",
-      "incorrect_answers": [
-        "<title>",
-        "<h1>",
-        "<body>"
-     ]
+	  "c1": "<h1>",
+	  "c2":"<title>",
+	  "c3": "<body>",
+	  "c4": "<head>",
+      "answer":"c4"
     },
     {
       "type": "multiple",
       "question": "Which of the following is not an access modifier?",
-      "answer":"All of the above",
-      "incorrect_answers": [
-        "Private",
-        "Public",
-        "Protected"
-     ]
+      "c1": "Public",
+	  "c2": "Private",
+	  "c3": "Protected",
+	  "c4": "All of the above",
+	  "answer":"c4"
     },
     {
       "type": "multiple",
       "question": "How do you change the background color?",
-      "answer":"back-ground color",
-      "incorrect_answers": [
-        "color",
-        "background",
-        "All of the above"
-     ]
+	  "c1": "color",
+	  "c2": "background",
+	  "c3": "back-ground color",
+	  "c4": "All of the above",
+      "answer":"c3",
     },
     {
       "type": "multiple",
       "question": "What signifies a new paragraph?",
-      "answer":"<p>",
-      "incorrect_answers": [
-        "<paragraph>",
-        "<para>",
-        "<br>"
-     ]
+	  "c1": "<p>",
+	  "c2": "<para>",
+	  "c3": "<br>",
+	  "c4": "<paragraph>",
+      "answer":"c1"
     },
     {
       "type": "boolean",
       "question": "There is only one way to declare a function in Javascript",
-      "answer":"False",
-      "incorrect_answers": [
-        "True"
-     ]
-    },
+      "answer":"False"
+    }
     {
       "type": "boolean",
       "question": "A variable can be changed when the final keyword is used",
-      "answer":"False",
-      "incorrect_answers": [ 
-        "True"
-     ]
+      "answer":"False"
     },
     {
       "type": "boolean",
       "question": "to declare a non-static method, the keyword non-static must be used ",
-      "answer":"False",
-      "incorrect_answers": [
-        "True"
-     ]
+      "answer":"False"
     },
     {
       "type": "boolean",
       "question": "In Java, = and == will produce the same result",
-      "answer":"False",
-      "incorrect_answers": [ 
-        "True"
-     ]
+      "answer":"False"
     },
     {
       "type": "boolean",
       "question": "Java and Javascript are the same.",
-      "answer":"False",
-      "incorrect_answers": [
-        "True"
-     ]
+      "answer":"False"
     },
    {
       "type": "boolean",
       "question": "<hr> produces a visible horizontal line",
-      "answer":"True",
-      "incorrect_answers": [
-        "False"
-     ]
+      "answer":"True"
     },
    {
       "type": "boolean",
       "question": "<br> produces a single line break",
-      "answer":"True",
-      "incorrect_answers": [
-        "False"
-     ]
+      "answer":"True"
     },
    {
       "type": "boolean",
       "question": "Danger and Red will produce the same color",
-      "answer":"True",
-      "incorrect_answers": [
-        "False"
-     ]
+      "answer":"True"
     },
     {
       "type": "boolean",
       "question": "Text - color is used to change font color",
-      "answer":"False",
-      "incorrect_answers": [
-        "True"    
-     ]
+      "answer":"False"
     },
     {
       "type": "boolean",
       "question": "A separate file is needed for CSS and JavaScript",
-      "answer":"False",
-      "incorrect_answers": [ "True"
-     ]
+      "answer":"False"
     },
     { 
       "type": "fill_in",
       "question": "px stands for:",
-      "answer": "Pixels",
-      "incorrect_answers": [
-       ]
+      "answer": "Pixels"
     },
     {
      "type": "fill_in",
      "question": "API stands for",
-     "answer": "Application Programming Interface",
-     "incorrect_answers":[
-    ]
+     "answer": "Application Programming Interface"
     }
 
 ]}
+	
