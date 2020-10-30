@@ -5,28 +5,36 @@ const initalValues {
 	questionNum: 0;	
 }
 
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', () => {
 
-
-})
-
-function load_quiz(){
-	let var {
-
-}
-
-function load_question(){
+	create_quiz();
 	
-	
-	
-	if initalValues.questionNum == initalValues == 20; {
-		end_quiz();
+	document.querySelector("#quiz_widget").onclick = (e) => {
+		select_quiz(e)
 	}
+});
+
+const select_quiz = (e) => {
+	if (e.target.dataset.selection == "quiz1") {
+		
+	}
+	else if (e.target.dataset.selection == "quiz2") {
+		
+	}
+	
+	
 }
 
-async function get_quiz_info(question[num])
+async function create_quiz(num)
 {
-	const response = await fetch('https://my-json-server.typicode.com/samanthav416/Milestone_3/');
+	const response = await fetch('https://my-json-server.typicode.com/samanthav416/Milestone_3/', { mode: 'no-cors' });
 	const data = await response.json();
 	return data[num]; 
 }
+
+
+const render_view =(model, view) => {
+	template_source = document.querySelector(view).innerHTML;
+	
+	var template = Handlebars.compile(template_source);
+	
