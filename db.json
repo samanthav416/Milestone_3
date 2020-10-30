@@ -30,8 +30,7 @@
     {
       "type": "fill_in",
       "question": "What does JDK stand for",
-      "answer":"Java Development Kit",
-
+      "answer": "Java Development Kit"
     },
     {
       "type": "multiple",
