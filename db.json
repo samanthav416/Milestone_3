@@ -29,8 +29,8 @@
     },
     {
       "type": "fill_in",
-      "question": "What does JDK stand for",
-      "answer":"Java Development Kit",
+      "question": "What does JDK stand for?",
+      "answer":"Java Development Kit"
     },
     {
       "type": "multiple",
@@ -43,8 +43,8 @@
     },
     {
       "type": "multiple",
-      "question": "Where are JS files and CS files references",
-      "c1": "<h1>",
+      "question": "Where are JS files and CS files references?",
+       "c1": "<h1>",
        "c2":"<title>",
        "c3": "<body>",
        "c4": "<head>",
