@@ -21,7 +21,7 @@
     {
       "type": "mutiple",
       "question": "Which of the following is not a language that has been taught in this course?",
-      "c1": "Javascript"
+      "c1": "Javascript",
       "c2": "CSS",
       "c3": "HTML",
       "c4": "Python",
