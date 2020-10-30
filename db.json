@@ -3,11 +3,11 @@
     {
       "type": "multiple",
       "question": "Inside which HTML element do we put the JavaScript?",
-      "c1": "<script>",
-	  "c2": "<java>",
-	  "c3":  "<javascript>",
-	  "c4": "<head>",
-	  "answer" : "c1"
+	    "c1": "<script>",
+	    "c2": "<java>",
+	    "c3":  "<javascript>",
+	    "c4": "<head>",
+	    "answer" : "c1"
     },
     {
       "type": "multiple",
@@ -15,7 +15,7 @@
 	  "c1": "Set",
 	  "c2": "None of the above",
 	  "c3": "All of the above",
-      "c4": "List",
+	  "c4": "List",
 	  "answer": "c4"
     },
     {
@@ -24,7 +24,7 @@
 	  "c1": "Javascript",
 	  "c2": "CSS",
 	  "c3": "HTML",
-      "c4": "Python",
+	  "c4": "Python",
 	  "answer": "c4"
     },
     {
@@ -39,7 +39,7 @@
 	  "c2": "Cascading Style Sheets",
 	  "c3": "Coding Style Sheets",
 	  "c4": "Colorful Style Sheets",
-      "answer":"c3"
+      	  "answer":"c3"
     },
     {
       "type": "multiple",
@@ -48,12 +48,12 @@
 	  "c2":"<title>",
 	  "c3": "<body>",
 	  "c4": "<head>",
-      "answer":"c4"
+     	  "answer":"c4"
     },
     {
       "type": "multiple",
       "question": "Which of the following is not an access modifier?",
-      "c1": "Public",
+      	  "c1": "Public",
 	  "c2": "Private",
 	  "c3": "Protected",
 	  "c4": "All of the above",
@@ -75,7 +75,7 @@
 	  "c2": "<para>",
 	  "c3": "<br>",
 	  "c4": "<paragraph>",
-      "answer":"c1"
+     	 "answer":"c1"
     },
     {
       "type": "boolean",
