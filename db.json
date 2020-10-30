@@ -81,7 +81,7 @@
       "type": "boolean",
       "question": "There is only one way to declare a function in Javascript",
       "answer":"False"
-    }
+    },
     {
       "type": "boolean",
       "question": "A variable can be changed when the final keyword is used",
