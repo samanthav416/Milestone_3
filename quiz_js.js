@@ -10,7 +10,7 @@ const constants = {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-	create_quiz_view
+	
 	
 	document.querySelector("#quiz_widget").onclick = (e) => {
 		select_quiz(e)
@@ -62,7 +62,7 @@ async function next_question(){
 
 	if(q_type = "multiple"){
 
-		let model = [
+		let model = 
 		{
 			q : question["question"],
 			c1 : question["c1"],
@@ -70,7 +70,7 @@ async function next_question(){
 			c3 : question["c3"],
 			c4 : question["c4"]
 		}
-		]
+		
 		update_view("#multiple_choice", "#question_view", model)
 	}
 	
@@ -98,14 +98,14 @@ async function check(){
 	//create if statements to check what question type it is, like above.
 	if (q_type == "multiple"){
 		
-		var answer;
+		var input;
         let x = document.getElementsByName('selection')
-		for (i = 0; i < x.length, i++) {
+		for (i = 0;  i < x.length; i++) {
 			if (x[i].checked) {
-				answer = x[i].value 
+				input = x[i].value 
 			}
 		}
-        if (answer === question["answer"])
+        if (input === question["answer"])
         {
             correct_answer();
         }
@@ -117,14 +117,14 @@ async function check(){
 	
 	else if (q_type == "boolean") {
 		
-		var answer;
+		var input;
         let x = document.getElementsByName('selection')
-		for (i = 0; i < x.length, i++) {
+		for (i = 0; i < x.length; i++) {
 			if (x[i].checked) {
-				answer = x[i].value 
+				input = x[i].value 
 			}
 		}
-        if (answer === question["answer"])
+        if (input === question["answer"])
         {
             correct_answer();
         }
@@ -143,16 +143,6 @@ async function check(){
 		wrong_answer;
 		}
 
-		//Do checks.
-
-		//For multiple choice, you will be using radio buttons.  Have the name attribute be the same for each and have the value attribute be the answer.
-		//Do a x = document.getElementsByName(name) and iterate over x.  check to see if x[i].checked and then check the answer.  after that check to see
-		//if the answer is the same or not.  Depending on that, do an appropriate right/wrong html thing.
-
-		//do basically the same thing for t/f if you decide to use radio buttons for it.
-		//for fill in, just do x = document.querySelector(answer).value and check the answer.
-
-		//Also increment the question num
 		constants.question_num++;
 	}
 }
