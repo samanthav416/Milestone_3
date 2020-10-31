@@ -5,7 +5,6 @@
 		<link rel = "stylesheet" href = "quiz_style.css" >
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-		
 		<script src ="quiz_js.js"></script> 
 		
 		
@@ -27,19 +26,61 @@
 	</script>
 	
 	<script id = "quiz_view" type = "text/x-handlebars-template">
-		<h4> Score: {{this.score} </h4>
-		<div id = "question_view" class= "text-center"
+		<h4 class = "text-center" > Score: {{this.score} </h4>
+		<div id = "question_view" class= "text-center"></div>
+		<div id = "after_answer" class= "text-center"></div>
 	</script>
 	
+	<!--You may also need to do an onsubmit or onclick in the form.  If you do, remember to return false after calling check answer function.  that will prevent it from refreshing.-->
 	<script id = "multiple_choice" type = "text/x-handlebars-template">
-	
+		<h2 class = "text-center"> {{this.question_num}} .  {{this.question}} </h2>
+		<form id = "submission" class = "text-center" onclick = "check('multiple'); return false;">
+			<p> Choose one of the following </p>
+			<input id = "c1" type = "radio" name = "selection" value = "c1">
+			<label for = "c2"> {{c1}} <label> <br>
+			<input id = "c2" type = "radio" name = "selection" value = "c2">
+			<label for = "c2"> {{c2}} <label> <br>
+			<input id = "c3" type = "radio" name = "selection" value = "c3">
+			<label for = "c3"> {{c3}} <label> <br>
+			<input id = "c4" type = "radio" name = "selection" value = "c4">
+			<label for = "c4"> {{c4}} <label> <br> 
+			<input id = "submit" type = "submit" value = "I'm Sure!">	
+		</form>		
+		<div id = "after_answer" class= "text-center"></div>
 	</script>
 	
 	<script id = "true_false" type = "text/x-handlebars-template">
+		<h2 class = "text-center"> {{this.question_num}} .  {{this.question}} </h2>
+		<form id = "submission" class = "text-center" onclick = "check('boolean'); return false;">
+			<p> Choose one of the following </p>
+			<input id = "true" type = "radio" name= "selection" value= "True">
+			<label for = "true"> True </label>
+			<input id = "false" type = "radio" name= "selection" value= "False">	
+			<label for = "false"> False </label>
+			<input id = "submit" type = "submit" value = "I'm Sure!">	
+		</form>
+		<div id = "after_answer" class= "text-center"></div>
 	</script>
 	
 	<script id = "fill_in" type = "text/x-handlebars-template">
+		<h2 class = "text-center"> {{this.question_num}} .  {{this.question}} </h2>
+		<form id = "submission" class = "text-center" onclick = "check('fill_in'); return false;">
+		<p> Fill in the Blank</p>
+		<input id="answer" autocomplete="off" placeholder="Answer:" type="text"> 
+		<input id = "submit" type = "submit" value = "I'm Sure!">	
 	</script>
+
+	<script id="right_answer" type="text/x-handlebars-template">
+		<h2 class="text-center">Way to go!</h2>
+	</script>
+	
+	<script id="explanation" type="text/x-handlebars-template">
+    <h3 class="text-center">Sorry, better luck next time!</h3>
+    <form id="wrong_answer" class="text-center" onclick="create_quiz_view(); return false;">
+        <input id="ok" type="Submit" value="OK">
+    </form>
+</script>
+
 
 
 </html>
